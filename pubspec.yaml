@@ -33,7 +33,6 @@ dependencies:
   image_picker:
   shared_preferences:
   fluttertoast:
-  cashed_network_image:
   intl:
   firebase_messaging:
 
