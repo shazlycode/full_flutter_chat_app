@@ -35,6 +35,9 @@ dependencies:
   fluttertoast:
   intl:
   firebase_messaging:
+  cached_network_image:
+  firebase_storage:
+
 
 dev_dependencies:
   flutter_test:

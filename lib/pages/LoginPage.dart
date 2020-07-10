@@ -123,7 +123,7 @@ class _LoginPageState extends State<LoginPage> {
       // check if google user data already saved in firestore
       Fluttertoast.showToast(msg: "SignedIn Successfully");
       final QuerySnapshot resultQuery = await Firestore.instance
-          .collection("users")
+          .collection("user")
           .where("id", isEqualTo: firebaseUser.uid)
           .getDocuments();
       List<DocumentSnapshot> documentSnapshot = resultQuery.documents;
